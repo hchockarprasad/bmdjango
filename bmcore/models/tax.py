@@ -86,3 +86,31 @@ class Tax(models.Model):
 
     def __str__(self):
         return str(self.name)
+
+
+# Tax Summary
+class TaxSummaryDisplay(models.Model):
+
+    voucher_id = models.IntegerField()
+
+    voucher_type = models.CharField(max_length=45)
+
+    voucher_no = models.CharField(max_length=45)
+
+    tax_id = models.IntegerField()
+
+    tax_name = models.CharField(max_length=45)
+
+    amount_value = models.DecimalField(max_digits=20, decimal_places=2)
+
+    cgst_value = models.DecimalField(max_digits=20, decimal_places=2)
+
+    sgst_value = models.DecimalField(max_digits=20, decimal_places=2)
+
+    igst_value = models.DecimalField(max_digits=20, decimal_places=2)
+
+    inventory_id = models.IntegerField()
+
+    class Meta:
+        db_table = 'vw_tax_summary'
+        managed = False

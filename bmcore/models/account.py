@@ -186,3 +186,39 @@ class FlaggedAccount(models.Model):
 
     class Meta:
         managed = False
+
+
+# Account Pending display
+class PendingDisplay(models.Model):
+
+    account_id = models.IntegerField()
+
+    account_name = models.CharField(max_length=100)
+
+    ref_no = models.CharField(max_length=40)
+
+    bill_amount = models.DecimalField(max_digits=20, decimal_places=2)
+
+    adjusted = models.DecimalField(max_digits=20, decimal_places=2)
+
+    adj_id = models.IntegerField()
+
+    branch_id = models.IntegerField()
+
+    branch_name = models.CharField(max_length=100)
+
+    class Meta:
+        managed = False
+
+
+# Account ledger for voucher
+class VoucherLedger(models.Model):
+
+    bwd = models.BooleanField()
+
+    name = models.CharField(max_length=55)
+
+    class_flag = models.IntegerField()
+
+    class Meta:
+        managed = False
