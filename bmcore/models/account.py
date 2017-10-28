@@ -174,3 +174,15 @@ class Account(models.Model):
 
     def __str__(self):
         return str(self.name)
+
+
+class FlaggedAccount(models.Model):
+
+    name = models.CharField(max_length=100, blank=True, null=True)
+
+    bwd = models.BooleanField()
+
+    class_flag = models.IntegerField()
+
+    class Meta:
+        managed = False
