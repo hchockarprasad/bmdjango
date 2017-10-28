@@ -13,3 +13,11 @@ from .menu import Menu
 from .role import Role
 
 from .privilege import Privilege
+
+from .tax import Tax
+
+from .salt import Salt
+
+from .composition import Composition
+
+from.manufacturer import Manufacturer
