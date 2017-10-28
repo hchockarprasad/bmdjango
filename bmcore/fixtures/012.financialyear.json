@@ -1,0 +1,12 @@
+[
+  {
+    "model": "bmcore.financialyear",
+    "pk": 1,
+    "fields": {
+      "name": "2016-2017",
+      "fn_begin": "2017-04-01",
+      "book_begin": "2017-04-01",
+      "active": true
+    }
+  }
+]

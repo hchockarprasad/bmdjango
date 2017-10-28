@@ -1,0 +1,15 @@
+[
+    {
+        "model": "bmcore.branch",
+        "pk": 1,
+        "fields": {
+            "name": "VELAVAN MEDICAL",
+            "val_name": "velvanmedical",
+            "branch_type": 1,
+            "is_default": true,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    }
+]

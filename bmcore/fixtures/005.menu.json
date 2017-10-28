@@ -1,0 +1,2018 @@
+[
+    {
+        "model": "bmcore.menu",
+        "pk": 1,
+        "fields": {
+            "name": "Account Create",
+            "component": "account",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 2,
+        "fields": {
+            "name": "Account Detail",
+            "component": "account",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 3,
+        "fields": {
+            "name": "Account Home",
+            "component": "account",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 4,
+        "fields": {
+            "name": "Account Update",
+            "component": "account",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 5,
+        "fields": {
+            "name": "Account Delete",
+            "component": "account",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 6,
+        "fields": {
+            "name": "Account List",
+            "component": "account",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 7,
+        "fields": {
+            "name": "Inventory Create",
+            "component": "inventory",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 8,
+        "fields": {
+            "name": "Inventory Detail",
+            "component": "inventory",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 9,
+        "fields": {
+            "name": "Inventory Delete",
+            "component": "inventory",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 10,
+        "fields": {
+            "name": "Inventory List",
+            "component": "inventory",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 11,
+        "fields": {
+            "name": "Inventory Update",
+            "component": "inventory",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 12,
+        "fields": {
+            "name": "Inventory Home",
+            "component": "inventory",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 13,
+        "fields": {
+            "name": "Role Create",
+            "component": "role",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 14,
+        "fields": {
+            "name": "Role List",
+            "component": "role",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 15,
+        "fields": {
+            "name": "Role Home",
+            "component": "role",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 16,
+        "fields": {
+            "name": "Role Detail",
+            "component": "role",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 17,
+        "fields": {
+            "name": "Role Delete",
+            "component": "role",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 18,
+        "fields": {
+            "name": "Role Update",
+            "component": "role",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 19,
+        "fields": {
+            "name": "Account Group Create",
+            "component": "account-group",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 20,
+        "fields": {
+            "name": "Account Group Delete",
+            "component": "account-group",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 21,
+        "fields": {
+            "name": "Account Group Detail",
+            "component": "account-group",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 22,
+        "fields": {
+            "name": "Account Group List",
+            "component": "account-group",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 23,
+        "fields": {
+            "name": "Account Group Home",
+            "component": "account-group",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 24,
+        "fields": {
+            "name": "Account Group Update",
+            "component": "account-group",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 25,
+        "fields": {
+            "name": "Composition Create",
+            "component": "composition",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 26,
+        "fields": {
+            "name": "Composition Delete",
+            "component": "composition",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 27,
+        "fields": {
+            "name": "Composition Detail",
+            "component": "composition",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 28,
+        "fields": {
+            "name": "Composition List",
+            "component": "composition",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 29,
+        "fields": {
+            "name": "Composition Home",
+            "component": "composition",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 30,
+        "fields": {
+            "name": "Customer Create",
+            "component": "customer",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 31,
+        "fields": {
+            "name": "Customer Delete",
+            "component": "customer",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 32,
+        "fields": {
+            "name": "Customer Detail",
+            "component": "customer",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 33,
+        "fields": {
+            "name": "Customer Home",
+            "component": "customer",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 34,
+        "fields": {
+            "name": "Customer List",
+            "component": "customer",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 35,
+        "fields": {
+            "name": "Customer Update",
+            "component": "customer",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 36,
+        "fields": {
+            "name": "Composition Update",
+            "component": "composition",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 37,
+        "fields": {
+            "name": "Branch Create",
+            "component": "branch",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 38,
+        "fields": {
+            "name": "Branch Delete",
+            "component": "branch",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 39,
+        "fields": {
+            "name": "Branch Detail",
+            "component": "branch",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 40,
+        "fields": {
+            "name": "Branch Home",
+            "component": "branch",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 41,
+        "fields": {
+            "name": "Branch List",
+            "component": "branch",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 42,
+        "fields": {
+            "name": "Branch Update",
+            "component": "branch",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 43,
+        "fields": {
+            "name": "Inventory Opening",
+            "component": "inventory",
+            "method": "opening",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 44,
+        "fields": {
+            "name": "Account Opening",
+            "component": "account",
+            "method": "opening",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 45,
+        "fields": {
+            "name": "Manufacturer Create",
+            "component": "manufacturer",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 46,
+        "fields": {
+            "name": "Manufacturer Delete",
+            "component": "manufacturer",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 47,
+        "fields": {
+            "name": "Manufacturer Detail",
+            "component": "manufacturer",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 48,
+        "fields": {
+            "name": "Manufacturer Home",
+            "component": "manufacturer",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 49,
+        "fields": {
+            "name": "Manufacturer List",
+            "component": "manufacturer",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 50,
+        "fields": {
+            "name": "Manufacturer Update",
+            "component": "manufacturer",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 51,
+        "fields": {
+            "name": "Pack Create",
+            "component": "pack",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 52,
+        "fields": {
+            "name": "Pack Delete",
+            "component": "pack",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 53,
+        "fields": {
+            "name": "Pack Detail",
+            "component": "pack",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 54,
+        "fields": {
+            "name": "Pack Home",
+            "component": "pack",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 55,
+        "fields": {
+            "name": "Pack List",
+            "component": "pack",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 56,
+        "fields": {
+            "name": "Pack Update",
+            "component": "pack",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 57,
+        "fields": {
+            "name": "Rack Create",
+            "component": "rack",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 58,
+        "fields": {
+            "name": "Rack Delete",
+            "component": "rack",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 59,
+        "fields": {
+            "name": "Rack Detail",
+            "component": "rack",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 60,
+        "fields": {
+            "name": "Rack Home",
+            "component": "rack",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 61,
+        "fields": {
+            "name": "Rack List",
+            "component": "rack",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 62,
+        "fields": {
+            "name": "Rack Update",
+            "component": "rack",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 63,
+        "fields": {
+            "name": "Salt Create",
+            "component": "salt",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 64,
+        "fields": {
+            "name": "Salt Delete",
+            "component": "salt",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 65,
+        "fields": {
+            "name": "Salt Detail",
+            "component": "salt",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 66,
+        "fields": {
+            "name": "Salt Home",
+            "component": "salt",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 67,
+        "fields": {
+            "name": "Salt List",
+            "component": "salt",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 68,
+        "fields": {
+            "name": "Salt Update",
+            "component": "salt",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 69,
+        "fields": {
+            "name": "Section Create",
+            "component": "section",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 70,
+        "fields": {
+            "name": "Section Delete",
+            "component": "section",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 71,
+        "fields": {
+            "name": "Section Detail",
+            "component": "section",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 72,
+        "fields": {
+            "name": "Section Home",
+            "component": "section",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 73,
+        "fields": {
+            "name": "Section List",
+            "component": "section",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 74,
+        "fields": {
+            "name": "Section Update",
+            "component": "section",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 75,
+        "fields": {
+            "name": "Tax Create",
+            "component": "tax",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 76,
+        "fields": {
+            "name": "Tax Delete",
+            "component": "tax",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 77,
+        "fields": {
+            "name": "Tax Detail",
+            "component": "tax",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 78,
+        "fields": {
+            "name": "Tax List",
+            "component": "tax",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 79,
+        "fields": {
+            "name": "Tax Home",
+            "component": "tax",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 80,
+        "fields": {
+            "name": "Tax Update",
+            "component": "tax",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 81,
+        "fields": {
+            "name": "Therapy Create",
+            "component": "therapy",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 82,
+        "fields": {
+            "name": "Therapy Delete",
+            "component": "therapy",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 83,
+        "fields": {
+            "name": "Therapy Detail",
+            "component": "therapy",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 84,
+        "fields": {
+            "name": "Therapy Home",
+            "component": "therapy",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 85,
+        "fields": {
+            "name": "Therapy List",
+            "component": "therapy",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 86,
+        "fields": {
+            "name": "Therapy Update",
+            "component": "therapy",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 87,
+        "fields": {
+            "name": "People Delete",
+            "component": "people",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 88,
+        "fields": {
+            "name": "People Detail",
+            "component": "people",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 89,
+        "fields": {
+            "name": "People Home",
+            "component": "people",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 90,
+        "fields": {
+            "name": "People List",
+            "component": "people",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 91,
+        "fields": {
+            "name": "People Update",
+            "component": "people",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 92,
+        "fields": {
+            "name": "Role Privilege",
+            "component": "role",
+            "method": "privilege",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 93,
+        "fields": {
+            "name": "Journal Home",
+            "component": "journal",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 94,
+        "fields": {
+            "name": "Journal Create",
+            "component": "journal",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 95,
+        "fields": {
+            "name": "Journal Detail",
+            "component": "journal",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 96,
+        "fields": {
+            "name": "Journal List",
+            "component": "journal",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 97,
+        "fields": {
+            "name": "Journal Update",
+            "component": "journal",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 98,
+        "fields": {
+            "name": "Journal Delete",
+            "component": "journal",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 100,
+        "fields": {
+            "name": "Sale Home",
+            "component": "sale",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 101,
+        "fields": {
+            "name": "Sale Create",
+            "component": "sale",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 102,
+        "fields": {
+            "name": "Sale List",
+            "component": "sale",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 103,
+        "fields": {
+            "name": "Sale Detail",
+            "component": "sale",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 104,
+        "fields": {
+            "name": "Sale Delete",
+            "component": "sale",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 105,
+        "fields": {
+            "name": "Sale Update",
+            "component": "sale",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 106,
+        "fields": {
+            "name": "Purchase Home",
+            "component": "purchase",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 107,
+        "fields": {
+            "name": "Purchase Create",
+            "component": "purchase",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 108,
+        "fields": {
+            "name": "Purchase List",
+            "component": "purchase",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 109,
+        "fields": {
+            "name": "Purchase Detail",
+            "component": "purchase",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 110,
+        "fields": {
+            "name": "Purchase Delete",
+            "component": "purchase",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 111,
+        "fields": {
+            "name": "Purchase Update",
+            "component": "purchase",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 112,
+        "fields": {
+            "name": "Doctor Home",
+            "component": "doctor",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 113,
+        "fields": {
+            "name": "Doctor Create",
+            "component": "doctor",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 114,
+        "fields": {
+            "name": "Doctor List",
+            "component": "doctor",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 115,
+        "fields": {
+            "name": "Doctor Detail",
+            "component": "doctor",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 116,
+        "fields": {
+            "name": "Doctor Delete",
+            "component": "doctor",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 117,
+        "fields": {
+            "name": "Doctor Update",
+            "component": "doctor",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 118,
+        "fields": {
+            "name": "People Settings",
+            "component": "people",
+            "method": "settings",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 121,
+        "fields": {
+            "name": "Purchase Date",
+            "component": "purchase",
+            "method": "date",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 122,
+        "fields": {
+            "name": "Cash Payment Home",
+            "component": "cash-payment",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 123,
+        "fields": {
+            "name": "Cash Payment Create",
+            "component": "cash-payment",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 124,
+        "fields": {
+            "name": "Cash Payment List",
+            "component": "cash-payment",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 125,
+        "fields": {
+            "name": "Cash Payment Detail",
+            "component": "cash-payment",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 126,
+        "fields": {
+            "name": "Cash Payment Delete",
+            "component": "cash-payment",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 127,
+        "fields": {
+            "name": "Cash Payment Update",
+            "component": "cash-payment",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 128,
+        "fields": {
+            "name": "Cash Receipt Home",
+            "component": "cash-receipt",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 129,
+        "fields": {
+            "name": "Cash Receipt Create",
+            "component": "cash-receipt",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 130,
+        "fields": {
+            "name": "Cash Receipt List",
+            "component": "cash-receipt",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 131,
+        "fields": {
+            "name": "Cash Receipt Detail",
+            "component": "cash-receipt",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 132,
+        "fields": {
+            "name": "Cash Receipt Delete",
+            "component": "cash-receipt",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 133,
+        "fields": {
+            "name": "Cash Receipt Update",
+            "component": "cash-receipt",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 134,
+        "fields": {
+            "name": "Cash Deposit Home",
+            "component": "cash-deposit",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 135,
+        "fields": {
+            "name": "Cash Deposit Create",
+            "component": "cash-deposit",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 136,
+        "fields": {
+            "name": "Cash Deposit List",
+            "component": "cash-deposit",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 137,
+        "fields": {
+            "name": "Cash Deposit Detail",
+            "component": "cash-deposit",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 138,
+        "fields": {
+            "name": "Cash Deposit Delete",
+            "component": "cash-deposit",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 139,
+        "fields": {
+            "name": "Cash Deposit Update",
+            "component": "cash-deposit",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 140,
+        "fields": {
+            "name": "Cash Withdrawal Home",
+            "component": "cash-withdrawal",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 141,
+        "fields": {
+            "name": "Cash Withdrawal Create",
+            "component": "cash-withdrawal",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 142,
+        "fields": {
+            "name": "Cash Withdrawal List",
+            "component": "cash-withdrawal",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 143,
+        "fields": {
+            "name": "Cash Withdrawal Detail",
+            "component": "cash-withdrawal",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 144,
+        "fields": {
+            "name": "Cash Withdrawal Delete",
+            "component": "cash-withdrawal",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 145,
+        "fields": {
+            "name": "Cash Withdrawal Update",
+            "component": "cash-withdrawal",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 146,
+        "fields": {
+            "name": "Contra Home",
+            "component": "contra",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 147,
+        "fields": {
+            "name": "Contra Create",
+            "component": "contra",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 148,
+        "fields": {
+            "name": "Contra List",
+            "component": "contra",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 149,
+        "fields": {
+            "name": "Contra Detail",
+            "component": "contra",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 150,
+        "fields": {
+            "name": "Contra Delete",
+            "component": "contra",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 151,
+        "fields": {
+            "name": "Contra Update",
+            "component": "contra",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 154,
+        "fields": {
+            "name": "Payment Home",
+            "component": "payment",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 155,
+        "fields": {
+            "name": "Payment Create",
+            "component": "payment",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 156,
+        "fields": {
+            "name": "Payment List",
+            "component": "payment",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 157,
+        "fields": {
+            "name": "Payment Detail",
+            "component": "payment",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 158,
+        "fields": {
+            "name": "Payment Delete",
+            "component": "payment",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 159,
+        "fields": {
+            "name": "Payment Update",
+            "component": "payment",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 160,
+        "fields": {
+            "name": "Receipt Home",
+            "component": "receipt",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 161,
+        "fields": {
+            "name": "Receipt Create",
+            "component": "receipt",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 162,
+        "fields": {
+            "name": "Receipt List",
+            "component": "receipt",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 163,
+        "fields": {
+            "name": "Receipt Detail",
+            "component": "receipt",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 164,
+        "fields": {
+            "name": "Receipt Delete",
+            "component": "receipt",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 165,
+        "fields": {
+            "name": "Receipt Update",
+            "component": "receipt",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 166,
+        "fields": {
+            "name": "Sale Return Home",
+            "component": "sale-return",
+            "method": "home",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 167,
+        "fields": {
+            "name": "Sale Return Create",
+            "component": "sale-return",
+            "method": "create",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 168,
+        "fields": {
+            "name": "Sale Return List",
+            "component": "sale-return",
+            "method": "list",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 169,
+        "fields": {
+            "name": "Sale Return Detail",
+            "component": "sale-return",
+            "method": "detail",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 170,
+        "fields": {
+            "name": "Sale Return Delete",
+            "component": "sale-return",
+            "method": "delete",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 171,
+        "fields": {
+            "name": "Sale Return Update",
+            "component": "sale-return",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 172,
+        "fields": {
+            "name": "Branch Inventory Update",
+            "component": "branch-inventory",
+            "method": "update",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.menu",
+        "pk": 173,
+        "fields": {
+            "name": "Sale Date",
+            "component": "sale",
+            "method": "date",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    }
+]

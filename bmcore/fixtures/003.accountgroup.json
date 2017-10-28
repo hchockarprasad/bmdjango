@@ -1,0 +1,563 @@
+[
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 1,
+        "fields": {
+            "name": "PRIMARY",
+            "val_name": "primary",
+            "alias_name": null,
+            "print_name": null,
+            "group": null,
+            "is_default": true,
+            "ldc": false,
+            "class_flag": null,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 2,
+        "fields": {
+            "name": "LIABILITIES",
+            "val_name": "liabilities",
+            "alias_name": null,
+            "print_name": null,
+            "group": 1,
+            "is_default": true,
+            "ldc": false,
+            "class_flag": null,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 3,
+        "fields": {
+            "name": "ASSETS",
+            "val_name": "assets",
+            "alias_name": null,
+            "print_name": null,
+            "group": 1,
+            "is_default": true,
+            "ldc": false,
+            "class_flag": null,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 4,
+        "fields": {
+            "name": "INCOME",
+            "val_name": "income",
+            "alias_name": null,
+            "print_name": null,
+            "group": 1,
+            "is_default": true,
+            "ldc": false,
+            "class_flag": null,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 5,
+        "fields": {
+            "name": "EXPENSE",
+            "val_name": "expense",
+            "alias_name": null,
+            "print_name": null,
+            "group": 1,
+            "is_default": true,
+            "ldc": false,
+            "class_flag": null,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 6,
+        "fields": {
+            "name": "CAPITAL ACCOUNT",
+            "val_name": "capitalaccount",
+            "alias_name": null,
+            "print_name": null,
+            "group": 2,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": null,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 7,
+        "fields": {
+            "name": "CURRENT LIABILITY",
+            "val_name": "currentliability",
+            "alias_name": null,
+            "print_name": null,
+            "group": 2,
+            "is_default": true,
+            "ldc": false,
+            "class_flag": null,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 8,
+        "fields": {
+            "name": "LOANS LIABILITY",
+            "val_name": "loansliability",
+            "alias_name": null,
+            "print_name": null,
+            "group": 2,
+            "is_default": true,
+            "ldc": false,
+            "class_flag": null,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 9,
+        "fields": {
+            "name": "BRANCH OR DIVISION",
+            "val_name": "branchordivision",
+            "alias_name": null,
+            "print_name": null,
+            "group": 2,
+            "is_default": true,
+            "ldc": false,
+            "class_flag": null,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 10,
+        "fields": {
+            "name": "SUSPENSE ACCOUNT",
+            "val_name": "suspenseaccount",
+            "alias_name": null,
+            "print_name": null,
+            "group": 2,
+            "is_default": true,
+            "ldc": false,
+            "class_flag": null,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 11,
+        "fields": {
+            "name": "FIXED ASSET",
+            "val_name": "fixedasset",
+            "alias_name": null,
+            "print_name": null,
+            "group": 3,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": null,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 12,
+        "fields": {
+            "name": "INVESTMENTS",
+            "val_name": "investments",
+            "alias_name": null,
+            "print_name": null,
+            "group": 3,
+            "is_default": true,
+            "ldc": false,
+            "class_flag": null,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 13,
+        "fields": {
+            "name": "CURRENT ASSET",
+            "val_name": "currentassets",
+            "alias_name": null,
+            "print_name": null,
+            "group": 3,
+            "is_default": true,
+            "ldc": false,
+            "class_flag": null,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 14,
+        "fields": {
+            "name": "MISC EXPENSE ASSET",
+            "val_name": "miscexpenseasset",
+            "alias_name": null,
+            "print_name": null,
+            "group": 3,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 9,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 15,
+        "fields": {
+            "name": "SALE ACCOUNT",
+            "val_name": "saleaccount",
+            "alias_name": null,
+            "print_name": null,
+            "group": 4,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 2,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 16,
+        "fields": {
+            "name": "DIRECT INCOME",
+            "val_name": "directincome",
+            "alias_name": null,
+            "print_name": null,
+            "group": 4,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 9,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 17,
+        "fields": {
+            "name": "INDIRECT INCOME",
+            "val_name": "indirectincome",
+            "alias_name": null,
+            "print_name": null,
+            "group": 4,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 9,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 18,
+        "fields": {
+            "name": "PURCHASE ACCOUNT",
+            "val_name": "purchaseaccount",
+            "alias_name": null,
+            "print_name": null,
+            "group": 5,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 3,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 19,
+        "fields": {
+            "name": "DIRECT EXPENSE",
+            "val_name": "directexpense",
+            "alias_name": null,
+            "print_name": null,
+            "group": 5,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 9,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 20,
+        "fields": {
+            "name": "INDIRECT EXPENSE",
+            "val_name": "indirectexpense",
+            "alias_name": null,
+            "print_name": null,
+            "group": 5,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 9,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 21,
+        "fields": {
+            "name": "RESERVES AND SURPLUS",
+            "val_name": "reservesandsurplus",
+            "alias_name": null,
+            "print_name": null,
+            "group": 6,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 9,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 22,
+        "fields": {
+            "name": "DUTIES AND TAX",
+            "val_name": "dutiesandtax",
+            "alias_name": null,
+            "print_name": null,
+            "group": 7,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 23,
+        "fields": {
+            "name": "PROVISIONS",
+            "val_name": "provisions",
+            "alias_name": null,
+            "print_name": null,
+            "group": 7,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 9,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 24,
+        "fields": {
+            "name": "SUNDRY CREDITORS",
+            "val_name": "sundrycreditors",
+            "alias_name": null,
+            "print_name": null,
+            "group": 7,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 8,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 25,
+        "fields": {
+            "name": "BANK OD ACCOUNT",
+            "val_name": "bankodaccount",
+            "alias_name": null,
+            "print_name": null,
+            "group": 8,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 5,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 26,
+        "fields": {
+            "name": "SECURED LOAN",
+            "val_name": "securedloan",
+            "alias_name": null,
+            "print_name": null,
+            "group": 8,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 9,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 27,
+        "fields": {
+            "name": "UNSECURED LOAN",
+            "val_name": "unsecuredloan",
+            "alias_name": null,
+            "print_name": null,
+            "group": 8,
+            "is_default": false,
+            "ldc": true,
+            "class_flag": 9,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 28,
+        "fields": {
+            "name": "STOCK IN HAND",
+            "val_name": "stockinhand",
+            "alias_name": null,
+            "print_name": null,
+            "group": 13,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 9,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 29,
+        "fields": {
+            "name": "DEPOSITS-ASSET",
+            "val_name": "deposits-asset",
+            "alias_name": null,
+            "print_name": null,
+            "group": 13,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 9,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 30,
+        "fields": {
+            "name": "LOANS AND ADVANCES-ASSET",
+            "val_name": "loansandadvances-asset",
+            "alias_name": null,
+            "print_name": null,
+            "group": 13,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 9,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 31,
+        "fields": {
+            "name": "SUNDRY DEPTORS",
+            "val_name": "sundrydeptors",
+            "alias_name": null,
+            "print_name": null,
+            "group": 13,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 7,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 32,
+        "fields": {
+            "name": "CASH IN HAND",
+            "val_name": "cashinhand",
+            "alias_name": null,
+            "print_name": null,
+            "group": 13,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 6,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.accountgroup",
+        "pk": 33,
+        "fields": {
+            "name": "BANK ACCOUNTS",
+            "val_name": "bankaccounts",
+            "alias_name": null,
+            "print_name": null,
+            "group": 13,
+            "is_default": true,
+            "ldc": true,
+            "class_flag": 4,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    }
+]

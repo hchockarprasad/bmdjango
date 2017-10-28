@@ -1,0 +1,198 @@
+[
+    {
+        "model": "bmcore.vouchermodel",
+        "pk": 1,
+        "fields": {
+            "name": "INVENTORY OPENING",
+            "prefix": "IO-",
+            "suffix": "",
+            "vch_no": 0,
+            "voucher_template": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchermodel",
+        "pk": 2,
+        "fields": {
+            "name": "ACCOUNT OPENING",
+            "prefix": "AO-",
+            "suffix": "",
+            "vch_no": 0,
+            "voucher_template": 2,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchermodel",
+        "pk": 3,
+        "fields": {
+            "name": "JOURNAL",
+            "prefix": "JRNL-",
+            "suffix": "",
+            "vch_no": 0,
+            "voucher_template": 3,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchermodel",
+        "pk": 4,
+        "fields": {
+            "name": "CASH TRANSFER",
+            "prefix": "CTRF-",
+            "suffix": "",
+            "vch_no": 0,
+            "voucher_template": 4,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchermodel",
+        "pk": 5,
+        "fields": {
+            "name": "SALE",
+            "prefix": "SALE-",
+            "suffix": "",
+            "vch_no": 0,
+            "voucher_template": 5,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchermodel",
+        "pk": 6,
+        "fields": {
+            "name": "PURCHASE",
+            "prefix": "PURC-",
+            "suffix": "",
+            "vch_no": 0,
+            "voucher_template": 6,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchermodel",
+        "pk": 7,
+        "fields": {
+            "name": "CASH PAYMENT",
+            "prefix": "CPAY-",
+            "suffix": "",
+            "vch_no": 0,
+            "voucher_template": 7,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchermodel",
+        "pk": 8,
+        "fields": {
+            "name": "CASH RECEIPT",
+            "prefix": "CRPT-",
+            "suffix": "",
+            "vch_no": 0,
+            "voucher_template": 8,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchermodel",
+        "pk": 9,
+        "fields": {
+            "name": "CASH DEPOSIT",
+            "prefix": "CDPT-",
+            "suffix": "",
+            "vch_no": 0,
+            "voucher_template": 9,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchermodel",
+        "pk": 10,
+        "fields": {
+            "name": "CASH WITHDRAWAL",
+            "prefix": "CWDL-",
+            "suffix": "",
+            "vch_no": 0,
+            "voucher_template": 10,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchermodel",
+        "pk": 11,
+        "fields": {
+            "name": "CONTRA",
+            "prefix": "CNTR-",
+            "suffix": "",
+            "vch_no": 0,
+            "voucher_template": 11,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchermodel",
+        "pk": 12,
+        "fields": {
+            "name": "PAYMENT",
+            "prefix": "PYMT-",
+            "suffix": "",
+            "vch_no": 0,
+            "voucher_template": 12,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchermodel",
+        "pk": 13,
+        "fields": {
+            "name": "RECEIPT",
+            "prefix": "RCPT-",
+            "suffix": "",
+            "vch_no": 0,
+            "voucher_template": 13,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchermodel",
+        "pk": 14,
+        "fields": {
+            "name": "SALE RETURN",
+            "prefix": "SRTN-",
+            "suffix": "",
+            "vch_no": 0,
+            "voucher_template": 14,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "model": "bmcore.role",
+        "pk": 1,
+        "fields": {
+            "name": "SYSTEM ADMINSTRATOR",
+            "val_name": "systemadministrator",
+            "privileges": null,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.role",
+        "pk": 2,
+        "fields": {
+            "name": "NA",
+            "val_name": "na",
+            "privileges": null,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "model": "bmcore.vouchertype",
+        "pk": 1,
+        "fields": {
+            "name": "INVENTORY_OPENING",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchertype",
+        "pk": 2,
+        "fields": {
+            "name": "ACCOUNT_OPENING",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchertype",
+        "pk": 3,
+        "fields": {
+            "name": "JOURNAL",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchertype",
+        "pk": 4,
+        "fields": {
+            "name": "CASH_TRANSFER",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchertype",
+        "pk": 5,
+        "fields": {
+            "name": "SALE",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchertype",
+        "pk": 6,
+        "fields": {
+            "name": "PURCHASE",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchertype",
+        "pk": 7,
+        "fields": {
+            "name": "PAYMENT",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchertype",
+        "pk": 8,
+        "fields": {
+            "name": "RECEIPT",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchertype",
+        "pk": 9,
+        "fields": {
+            "name": "CONTRA",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.vouchertype",
+        "pk": 10,
+        "fields": {
+            "name": "SALE_RETURN",
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    }
+]

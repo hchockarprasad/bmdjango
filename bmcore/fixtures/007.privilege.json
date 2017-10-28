@@ -1,0 +1,2120 @@
+[
+    {
+        "model": "bmcore.privilege",
+        "pk": 1,
+        "fields": {
+            "menu": 1,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 2,
+        "fields": {
+            "menu": 2,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 3,
+        "fields": {
+            "menu": 3,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 4,
+        "fields": {
+            "menu": 4,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 5,
+        "fields": {
+            "menu": 5,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 6,
+        "fields": {
+            "menu": 6,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 7,
+        "fields": {
+            "menu": 7,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 8,
+        "fields": {
+            "menu": 8,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 9,
+        "fields": {
+            "menu": 9,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 10,
+        "fields": {
+            "menu": 10,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 11,
+        "fields": {
+            "menu": 11,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 12,
+        "fields": {
+            "menu": 12,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 13,
+        "fields": {
+            "menu": 13,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 14,
+        "fields": {
+            "menu": 14,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 15,
+        "fields": {
+            "menu": 15,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 16,
+        "fields": {
+            "menu": 16,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 17,
+        "fields": {
+            "menu": 17,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 18,
+        "fields": {
+            "menu": 18,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 19,
+        "fields": {
+            "menu": 19,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 20,
+        "fields": {
+            "menu": 20,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 21,
+        "fields": {
+            "menu": 21,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 22,
+        "fields": {
+            "menu": 22,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 23,
+        "fields": {
+            "menu": 23,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 24,
+        "fields": {
+            "menu": 24,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 25,
+        "fields": {
+            "menu": 25,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 26,
+        "fields": {
+            "menu": 26,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 27,
+        "fields": {
+            "menu": 27,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 28,
+        "fields": {
+            "menu": 28,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 29,
+        "fields": {
+            "menu": 29,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 30,
+        "fields": {
+            "menu": 30,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 31,
+        "fields": {
+            "menu": 31,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 32,
+        "fields": {
+            "menu": 32,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 33,
+        "fields": {
+            "menu": 33,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 34,
+        "fields": {
+            "menu": 34,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 35,
+        "fields": {
+            "menu": 35,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 36,
+        "fields": {
+            "menu": 36,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 37,
+        "fields": {
+            "menu": 37,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 38,
+        "fields": {
+            "menu": 38,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 39,
+        "fields": {
+            "menu": 39,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 40,
+        "fields": {
+            "menu": 40,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 41,
+        "fields": {
+            "menu": 41,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 42,
+        "fields": {
+            "menu": 42,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 43,
+        "fields": {
+            "menu": 43,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 44,
+        "fields": {
+            "menu": 44,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 45,
+        "fields": {
+            "menu": 45,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 46,
+        "fields": {
+            "menu": 46,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 47,
+        "fields": {
+            "menu": 47,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 48,
+        "fields": {
+            "menu": 48,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 49,
+        "fields": {
+            "menu": 49,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 50,
+        "fields": {
+            "menu": 50,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 51,
+        "fields": {
+            "menu": 51,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 52,
+        "fields": {
+            "menu": 52,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 53,
+        "fields": {
+            "menu": 53,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 54,
+        "fields": {
+            "menu": 54,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 55,
+        "fields": {
+            "menu": 55,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 56,
+        "fields": {
+            "menu": 56,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 57,
+        "fields": {
+            "menu": 57,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 58,
+        "fields": {
+            "menu": 58,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 59,
+        "fields": {
+            "menu": 59,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 60,
+        "fields": {
+            "menu": 60,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 61,
+        "fields": {
+            "menu": 61,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 62,
+        "fields": {
+            "menu": 62,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 63,
+        "fields": {
+            "menu": 63,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 64,
+        "fields": {
+            "menu": 64,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 65,
+        "fields": {
+            "menu": 65,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 66,
+        "fields": {
+            "menu": 66,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 67,
+        "fields": {
+            "menu": 67,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 68,
+        "fields": {
+            "menu": 68,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 69,
+        "fields": {
+            "menu": 69,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 70,
+        "fields": {
+            "menu": 70,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 71,
+        "fields": {
+            "menu": 71,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 72,
+        "fields": {
+            "menu": 72,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 73,
+        "fields": {
+            "menu": 73,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 74,
+        "fields": {
+            "menu": 74,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 75,
+        "fields": {
+            "menu": 75,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 76,
+        "fields": {
+            "menu": 76,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 77,
+        "fields": {
+            "menu": 77,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 78,
+        "fields": {
+            "menu": 78,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 79,
+        "fields": {
+            "menu": 79,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 80,
+        "fields": {
+            "menu": 80,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 81,
+        "fields": {
+            "menu": 81,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 82,
+        "fields": {
+            "menu": 82,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 83,
+        "fields": {
+            "menu": 83,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 84,
+        "fields": {
+            "menu": 84,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 85,
+        "fields": {
+            "menu": 85,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 86,
+        "fields": {
+            "menu": 86,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 87,
+        "fields": {
+            "menu": 87,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 88,
+        "fields": {
+            "menu": 88,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 89,
+        "fields": {
+            "menu": 89,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 90,
+        "fields": {
+            "menu": 90,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 91,
+        "fields": {
+            "menu": 91,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 92,
+        "fields": {
+            "menu": 92,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 93,
+        "fields": {
+            "menu": 93,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 94,
+        "fields": {
+            "menu": 94,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 95,
+        "fields": {
+            "menu": 95,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 96,
+        "fields": {
+            "menu": 96,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 97,
+        "fields": {
+            "menu": 97,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 98,
+        "fields": {
+            "menu": 98,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 100,
+        "fields": {
+            "menu": 100,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 101,
+        "fields": {
+            "menu": 101,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 102,
+        "fields": {
+            "menu": 102,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 103,
+        "fields": {
+            "menu": 103,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 104,
+        "fields": {
+            "menu": 104,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 105,
+        "fields": {
+            "menu": 105,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 106,
+        "fields": {
+            "menu": 106,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 107,
+        "fields": {
+            "menu": 107,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 108,
+        "fields": {
+            "menu": 108,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 109,
+        "fields": {
+            "menu": 109,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 110,
+        "fields": {
+            "menu": 110,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 111,
+        "fields": {
+            "menu": 111,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 112,
+        "fields": {
+            "menu": 112,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 113,
+        "fields": {
+            "menu": 113,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 114,
+        "fields": {
+            "menu": 114,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 115,
+        "fields": {
+            "menu": 115,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 116,
+        "fields": {
+            "menu": 116,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 117,
+        "fields": {
+            "menu": 117,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 118,
+        "fields": {
+            "menu": 118,
+            "access": true,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 121,
+        "fields": {
+            "menu": 121,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 122,
+        "fields": {
+            "menu": 122,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 123,
+        "fields": {
+            "menu": 123,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 124,
+        "fields": {
+            "menu": 124,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 125,
+        "fields": {
+            "menu": 125,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 126,
+        "fields": {
+            "menu": 126,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 127,
+        "fields": {
+            "menu": 127,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 128,
+        "fields": {
+            "menu": 128,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 129,
+        "fields": {
+            "menu": 129,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 130,
+        "fields": {
+            "menu": 130,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 131,
+        "fields": {
+            "menu": 131,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 132,
+        "fields": {
+            "menu": 132,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 133,
+        "fields": {
+            "menu": 133,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 134,
+        "fields": {
+            "menu": 134,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 135,
+        "fields": {
+            "menu": 135,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 136,
+        "fields": {
+            "menu": 136,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 137,
+        "fields": {
+            "menu": 137,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 138,
+        "fields": {
+            "menu": 138,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 139,
+        "fields": {
+            "menu": 139,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 140,
+        "fields": {
+            "menu": 140,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 141,
+        "fields": {
+            "menu": 141,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 142,
+        "fields": {
+            "menu": 142,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 143,
+        "fields": {
+            "menu": 143,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 144,
+        "fields": {
+            "menu": 144,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 145,
+        "fields": {
+            "menu": 145,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 146,
+        "fields": {
+            "menu": 146,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 147,
+        "fields": {
+            "menu": 147,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 148,
+        "fields": {
+            "menu": 148,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 149,
+        "fields": {
+            "menu": 149,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 150,
+        "fields": {
+            "menu": 150,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 151,
+        "fields": {
+            "menu": 151,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 154,
+        "fields": {
+            "menu": 154,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 155,
+        "fields": {
+            "menu": 155,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 156,
+        "fields": {
+            "menu": 156,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 157,
+        "fields": {
+            "menu": 157,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 158,
+        "fields": {
+            "menu": 158,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 159,
+        "fields": {
+            "menu": 159,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 160,
+        "fields": {
+            "menu": 160,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 161,
+        "fields": {
+            "menu": 161,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 162,
+        "fields": {
+            "menu": 162,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 163,
+        "fields": {
+            "menu": 163,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 164,
+        "fields": {
+            "menu": 164,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 165,
+        "fields": {
+            "menu": 165,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 166,
+        "fields": {
+            "menu": 166,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 167,
+        "fields": {
+            "menu": 167,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 168,
+        "fields": {
+            "menu": 168,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 169,
+        "fields": {
+            "menu": 169,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 170,
+        "fields": {
+            "menu": 170,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 171,
+        "fields": {
+            "menu": 171,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 172,
+        "fields": {
+            "menu": 172,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "bmcore.privilege",
+        "pk": 173,
+        "fields": {
+            "menu": 173,
+            "access": true,
+            "from_days": 0,
+            "to_days": 0,
+            "role": 1,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    }
+]

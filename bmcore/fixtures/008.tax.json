@@ -1,0 +1,16 @@
+[
+    {
+        "model": "bmcore.tax",
+        "pk": 1,
+        "fields": {
+            "name": "GST 12",
+            "tax_type": "GST",
+            "sgst_ratio": 6.00,
+            "cgst_ratio": 6.00,
+            "igst_ratio": 12.00,
+            "timestamp": "2017-10-18T13:19:37+00:00",
+            "updated": "2017-10-18T13:19:37+00:00",
+            "created_by": 1
+        }
+    }
+]
