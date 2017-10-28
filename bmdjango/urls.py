@@ -20,5 +20,6 @@ from rest_framework_jwt.views import obtain_jwt_token
 urlpatterns = [
     url(r'^api/auth/token/', obtain_jwt_token),
     url(r'^admin/', admin.site.urls),
-    url(r'^auth/api/', include("bmauthenticator.api.urls", namespace='auth-api')),
+    url(r'^auth/api/', include("bmauthenticator.api.urls", namespace='authenticator-api')),
+    url(r'^acc/api/', include("bmaccounter.api.urls", namespace='accounter-api')),
 ]

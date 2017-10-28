@@ -1,6 +1,6 @@
 from django.db import transaction
 
-from bmcore.models import Account
+from bmcore.models import Account, FlaggedAccount
 
 from bmcore.utils import gen_val_str
 
@@ -39,6 +39,15 @@ class AccountService(object):
             return {'status': False}
 
         return ValueError('Cannot check for account existence when account id and name is none')
+
+    @staticmethod
+    def get_flagged_account(voucher_type, **kwargs):
+
+        name = kwargs.get('name', None)
+
+        sql = "SELECT * FROM vw_{0}_vch WHERE name like '{1}%%'".format(voucher_type, name.upper())
+
+        return FlaggedAccount.objects.raw(sql)
 
     def create(self, **kwargs):
 

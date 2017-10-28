@@ -112,7 +112,6 @@ class AccountOutwardSerializer(generics.DynamicFieldsModelSerializer):
             'gst_no',
             'cst_no',
             'tin_no',
-            'is_deletable',
             'is_default'
         ]
 

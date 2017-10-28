@@ -26,7 +26,7 @@ class DynamicFieldsModelSerializer(serializers.ModelSerializer):
                 self.fields.pop(field_name)
 
 
-class AccountGroupSerializer(serializers.ModelSerializer):
+class AccountGroupSerializer(DynamicFieldsModelSerializer):
 
     class Meta:
         model = AccountGroup

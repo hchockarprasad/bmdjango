@@ -1,6 +1,8 @@
 from django.contrib.auth.models import User
 
-from bmcore.models import UserProfile
+from bmcore.models.user_profile import UserProfile
+
+from bmcore.models.privilege import Privilege
 
 
 # Add your user service here
@@ -8,6 +10,10 @@ from bmcore.models import UserProfile
 class UserService(object):
 
     model = User
+
+    def __init__(self, user=None):
+
+        self.user = user
 
     @staticmethod
     def validate_password(user, password):
@@ -29,6 +35,20 @@ class UserService(object):
             return user
 
         return None
+
+    def has_menu_permission(self, menu):
+
+        if self.user is not None:
+
+            user_privilege = Privilege.objects.filter(role=self.user.userprofile.role).filter(menu__name=menu)
+
+            if user_privilege.count() == 1:
+
+                return user_privilege.first().access
+
+            return False
+
+        raise ValueError('Cannot get permissions for empty user')
 
     def login(self, username, password):
 

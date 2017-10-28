@@ -6,6 +6,8 @@ from django.db.models.signals import post_save
 
 from django.dispatch import receiver
 
+from bmcore.models.role import Role
+
 # Create your models here.
 
 
@@ -57,6 +59,8 @@ class UserProfile(models.Model):
     sex = models.NullBooleanField()
 
     verified = models.BooleanField(default=False)
+
+    role = models.ForeignKey(Role, blank=True, null=True)
 
     objects = UserProfileManager()
 
