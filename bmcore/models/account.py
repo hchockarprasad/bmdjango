@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 from bmcore import utils
 
-from bmcore.models import AccountGroup
+from bmcore.models.account_group import AccountGroup
 
 
 # Account manager

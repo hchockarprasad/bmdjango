@@ -1,9 +1,10 @@
 from django.db import models
 
-from bmcore.models import (
-    Account,
-    Branch,
-)
+from bmcore.models.account import Account
+
+from bmcore.models.branch import Branch
+
+
 # Pending manager
 class PendingManager(models.Manager):
 

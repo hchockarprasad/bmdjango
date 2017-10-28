@@ -2,7 +2,7 @@ from django.db import models
 
 from django.contrib.auth.models import User
 
-from bmcore.models import VoucherTemplate
+from bmcore.models.voucher_template import VoucherTemplate
 
 
 # Voucher Model Manager

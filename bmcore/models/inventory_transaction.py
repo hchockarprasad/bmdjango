@@ -1,12 +1,14 @@
 from django.db import models
 
-from bmcore.models import (
-    Inventory,
-    Batch,
-    Voucher,
-    Tax,
-    Pack,
-)
+from bmcore.models.inventory import Inventory
+
+from bmcore.models.batch import Batch
+
+from bmcore.models.voucher import Voucher
+
+from bmcore.models.tax import Tax
+
+from bmcore.models.pack import Pack
 
 
 # Inventory transaction manager

@@ -1,10 +1,10 @@
 from django.db import models
 
-from bmcore.models import (
-    Branch,
-    Inventory,
-    Pack,
-)
+from bmcore.models.branch import Branch
+
+from bmcore.models.inventory import Inventory
+
+from bmcore.models.pack import Pack
 
 
 # Batch Manager

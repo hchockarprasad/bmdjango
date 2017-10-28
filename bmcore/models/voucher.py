@@ -2,13 +2,15 @@ from django.db import models
 
 from django.contrib.auth.models import User
 
-from bmcore.models import (
-    Account,
-    Inventory,
-    Customer,
-    Branch,
-    Doctor,
-)
+from bmcore.models.account import Account
+
+from bmcore.models.inventory import Inventory
+
+from bmcore.models.customer import Customer
+
+from bmcore.models.branch import Branch
+
+from bmcore.models.doctor import Doctor
 
 
 # Voucher manager

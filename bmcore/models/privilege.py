@@ -2,10 +2,9 @@ from django.db import models
 
 from django.contrib.auth.models import User
 
-from bmcore.models import (
-    Menu,
-    Role,
-)
+from bmcore.models.menu import Menu
+
+from bmcore.models.role import Role
 
 
 # Privilege

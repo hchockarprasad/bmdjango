@@ -1,9 +1,8 @@
 from django.db import models
 
-from bmcore.models import (
-    Account,
-    AccountTransaction,
-)
+from bmcore.models.account import Account
+
+from bmcore.models.account_transaction import AccountTransaction
 
 
 # BillWiseDetail

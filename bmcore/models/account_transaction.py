@@ -1,9 +1,8 @@
 from django.db import models
 
-from bmcore.models import (
-    Account,
-    Voucher,
-)
+from bmcore.models.account import Account
+
+from bmcore.models.voucher import Voucher
 
 
 # Account Transaction manager

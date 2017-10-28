@@ -4,14 +4,17 @@ from django.contrib.auth.models import User
 
 from bmcore import utils
 
-from bmcore.models import (
-    Manufacturer,
-    Composition,
-    Section,
-    Tax,
-    Therapy,
-    Rack,
-)
+from bmcore.models.manufacturer import Manufacturer
+
+from bmcore.models.composition import Composition
+
+from bmcore.models.section import Section
+
+from bmcore.models.tax import Tax
+
+from bmcore.models.therapy import Therapy
+
+from bmcore.models.rack import Rack
 
 
 # Inventory Manager

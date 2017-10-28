@@ -1,10 +1,10 @@
 from django.db import models
 
-from bmcore.models import (
-    Account,
-    Voucher,
-    Branch,
-)
+from bmcore.models.account import Account
+
+from bmcore.models.voucher import Voucher
+
+from bmcore.models.branch import Branch
 
 
 # Cashier cash display
