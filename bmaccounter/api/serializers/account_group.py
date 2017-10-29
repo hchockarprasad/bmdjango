@@ -3,7 +3,7 @@ from rest_framework import (
     validators,
 )
 
-from bmcore import generics
+from bmcore import generics, utils
 
 from bmcore.models import AccountGroup
 
@@ -48,9 +48,7 @@ class AccountGroupInwardSerializer(serializers.ModelSerializer):
     @staticmethod
     def validate_name(value):
 
-        account_group_service = AccountGroupService()
-
-        account_group_exists = account_group_service.check_account_group_exists(None, value)
+        account_group_exists = utils.check_obj_exists(AccountGroup, None, **{'name': value})
 
         if account_group_exists['status'] is True:
             raise validators.ValidationError(account_group_exists['message'])
@@ -61,9 +59,7 @@ class AccountGroupInwardSerializer(serializers.ModelSerializer):
 
         if data.get('id', None) is not None:
 
-            account_group_service = AccountGroupService()
-
-            account_group_exists = account_group_service.check_account_group_exists(data['id'], data['name'])
+            account_group_exists = utils.check_obj_exists(AccountGroup, data['id'], **{'name': data['name']})
 
             if account_group_exists['status'] is True:
                 raise validators.ValidationError(account_group_exists['message'])

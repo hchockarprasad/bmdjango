@@ -10,36 +10,6 @@ class AccountService(object):
 
     model = Account
 
-    def check_account_exists(self, account_id=None, account_name=None):
-
-        _if_exists_text = 'Account already exists'
-
-        _val_name = gen_val_str(account_name)
-
-        # Validate with account name where id does not exists
-        if account_id is None and account_name is not None:
-
-            account_exists = self.model.objects.filter(val_name=_val_name).exists()
-
-            if account_exists:
-
-                return {'status': True, 'message': _if_exists_text}
-
-            return {'status': False}
-
-        # Validate with account id and name
-        elif account_id is not None and account_name is not None:
-
-            account_exists = self.model.objects.exclude(pk=account_id).filter(val_name=_val_name).exists()
-
-            if account_exists:
-
-                return {'status': True, 'message': _if_exists_text}
-
-            return {'status': False}
-
-        return ValueError('Cannot check for account existence when account id and name is none')
-
     @staticmethod
     def get_flagged_account(voucher_type, **kwargs):
 

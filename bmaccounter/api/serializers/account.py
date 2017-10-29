@@ -3,7 +3,7 @@ from rest_framework import (
     validators,
 )
 
-from bmcore import generics
+from bmcore import generics, utils
 
 from bmcore.models import (
     Account,
@@ -46,9 +46,7 @@ class AccountInwardSerializer(serializers.ModelSerializer):
     @staticmethod
     def validate_name(value):
 
-        account_service = AccountService()
-
-        account_exists = account_service.check_account_exists(None, value)
+        account_exists = utils.check_obj_exists(Account, None, **{'name': value})
 
         if account_exists['status'] is True:
 
@@ -60,9 +58,7 @@ class AccountInwardSerializer(serializers.ModelSerializer):
 
         if data.get('id', None) is not None:
 
-            account_service = AccountService()
-
-            account_exists = account_service.check_account_exists(data['id'], data['name'])
+            account_exists = utils.check_obj_exists(Account, data['id'], **{'name': data['name']})
 
             if account_exists['status'] is True:
 
