@@ -58,7 +58,7 @@ class AccountInwardSerializer(serializers.ModelSerializer):
 
     def validate(self, data):
 
-        if data['id'] is not None:
+        if data.get('id', None) is not None:
 
             account_service = AccountService()
 

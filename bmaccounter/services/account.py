@@ -65,7 +65,7 @@ class AccountService(object):
 
         with transaction.atomic():
 
-            return self.model.objects.create(name, group, bwd, created_by, **kwargs)
+            return self.model.objects.create(**kwargs)
 
     def update(self, inst, **kwargs):
 

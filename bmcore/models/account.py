@@ -10,11 +10,11 @@ from bmcore.models.account_group import AccountGroup
 # Account manager
 class AccountManager(models.Manager):
 
-    def create(self, name, group, bwd, created_by, **kwargs):
+    def create(self, **kwargs):
 
         instance = self.model()
 
-        instance.name = name.upper()
+        instance.name = kwargs.get('name').upper()
 
         instance.val_name = utils.gen_val_str(instance.name)
 
@@ -22,9 +22,9 @@ class AccountManager(models.Manager):
 
         instance.print_name = kwargs.get('print_name', None)
 
-        instance.group = group
+        instance.group = kwargs.get('group')
 
-        instance.bwd = bwd
+        instance.bwd = kwargs.get('bwd')
 
         instance.door = kwargs.get('door', None)
 
@@ -54,18 +54,18 @@ class AccountManager(models.Manager):
 
         instance.is_default = kwargs.get('is_default', False)
 
-        instance.created_by = created_by
+        instance.created_by = kwargs.get('created_by')
 
         instance.save()
 
         return instance
 
     @staticmethod
-    def update(inst, name, group, bwd, created_by, kwargs):
+    def update(inst, **kwargs):
 
         instance = inst
 
-        instance.name = name.upper()
+        instance.name = kwargs.get('name').upper()
 
         instance.val_name = utils.gen_val_str(instance.name)
 
@@ -73,9 +73,9 @@ class AccountManager(models.Manager):
 
         instance.print_name = kwargs.get('print_name', None)
 
-        instance.group = group
+        instance.group = kwargs.get('group')
 
-        instance.bwd = bwd
+        instance.bwd = kwargs.get('bwd')
 
         instance.door = kwargs.get('door', None)
 
@@ -105,7 +105,7 @@ class AccountManager(models.Manager):
 
         instance.is_default = kwargs.get('is_default', False)
 
-        instance.created_by = created_by
+        instance.created_by = kwargs.get('created_by')
 
         instance.save()
 
