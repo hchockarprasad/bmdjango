@@ -16,7 +16,7 @@ class UtilsTests(TestCase):
 
         test_utils.load_initial_data()
 
-    def test_increment_voucher_by_1(self):
+    def test_increment_voucher(self):
         """
         Ensure voucher model gets incremented by 1 when needed
         """
