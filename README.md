@@ -17,4 +17,4 @@ Project on initial phase, Pull requests are not accepted as of now.
 
 ## By
 
-An alien disguised as human
+An alien disguised as a human
