@@ -2,6 +2,8 @@
 
 import re
 
+from bmcore.models.voucher_model import VoucherModel
+
 
 # Function that generates validated string
 def gen_val_str(value):
@@ -54,3 +56,15 @@ def check_obj_exists(model, obj_id, **kwargs):
             return {'status': False}
 
     return ValueError('Cannot check for model existence if arguments are None')
+
+
+# Function that increment voucher number for a particular voucher type
+def increment_voucher(voucher_type):
+
+    model_obj = VoucherModel.objects.get(voucher_template__voucher_type__name=voucher_type)
+
+    model_obj.vch_no += 1
+
+    model_obj.save()
+
+    return model_obj

@@ -77,6 +77,6 @@ class UserProfile(models.Model):
 @receiver(post_save, sender=User)
 def create_user_profile(sender, instance, created, **kwargs):
 
-    if created or kwargs.get('raw') is True:
+    if created is True and kwargs.get('raw') is False:
 
         UserProfile.objects.update_or_create(user=instance)
