@@ -1,5 +1,7 @@
 from bmcore.models import Account
 
+from bmaccounter.services.voucher import VoucherService
+
 
 # Payment Service
 class PaymentService(object):
@@ -38,22 +40,20 @@ class PaymentService(object):
 
     def has_valid_transactions(self, transactions):
 
-        credit_sum = 0
-
-        debit_sum = 0
-
         for item in transactions:
-
-            credit_sum += item['credit']
-
-            debit_sum += item['debit']
 
             if self._has_valid_position(item['account'], item['credit'], item['debit']) is False:
 
                 return False
 
-        if credit_sum + debit_sum != 0:
-
-            return False
-
         return True
+
+    def create(self, voucher):
+
+        voucher_service = VoucherService(voucher)
+
+        if voucher_service.has_valid_voucher():
+
+            return True
+
+        return False
