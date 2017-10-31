@@ -1,3 +1,6 @@
+from django.contrib.auth.models import User
+
+from bmauthenticator.services.user import UserService
 
 
 # Voucher Service
@@ -42,3 +45,13 @@ class VoucherService(object):
             return True
 
         return False
+
+    def create_voucher(self):
+
+        user = User.objects.get(pk=self.voucher['created_by'])
+
+        user_service = UserService(user=user)
+
+        branch = user_service.branch
+
+        # Voucher Create Logic here

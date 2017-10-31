@@ -15,6 +15,15 @@ class UserService(object):
 
         self.user = user
 
+    @property
+    def branch(self):
+
+        if self.user:
+
+            return UserProfile.objects.get(user=self.user).branch
+
+        return None
+
     @staticmethod
     def validate_password(user, password):
 
