@@ -20,14 +20,14 @@ class PaymentService(object):
     @property
     def credit_accounts(self):
 
-        return Account.objects.filter(group__in=self._permitted_groups_for_credit)
+        return Account.objects.filter(group__in=self._permitted_groups_for_credit).id
 
     @property
     def debit_accounts(self):
 
-        return Account.objects.filter(group_id=self._permitted_groups_for_debit)
+        return Account.objects.filter(group_id=self._permitted_groups_for_debit).id
 
-    def is_valid_position(self, account_id, credit, debit):
+    def _has_valid_position(self, account_id, credit, debit):
 
         if (credit > 0 and account_id in self.credit_accounts or
                 debit > 0 and account_id in self.debit_accounts):
@@ -35,3 +35,25 @@ class PaymentService(object):
             return True
 
         return False
+
+    def has_valid_transactions(self, transactions):
+
+        credit_sum = 0
+
+        debit_sum = 0
+
+        for item in transactions:
+
+            credit_sum += item['credit']
+
+            debit_sum += item['debit']
+
+            if self._has_valid_position(item['account'], item['credit'], item['debit']) is False:
+
+                return False
+
+        if credit_sum + debit_sum != 0:
+
+            return False
+
+        return True
