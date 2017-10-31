@@ -8,6 +8,8 @@ from django.dispatch import receiver
 
 from bmcore.models.role import Role
 
+from bmcore.models.account import Account
+
 # Create your models here.
 
 
@@ -61,6 +63,10 @@ class UserProfile(models.Model):
     verified = models.BooleanField(default=False)
 
     role = models.ForeignKey(Role, blank=True, null=True)
+
+    is_cashier = models.BooleanField(default=False)
+
+    cash_account = models.ForeignKey(Account, blank=True, null=True)
 
     objects = UserProfileManager()
 
