@@ -1,6 +1,6 @@
-from django.contrib.auth.models import User
+from bmcore import utils
 
-from bmauthenticator.services.user import UserService
+from bmcore.models import Voucher
 
 
 # Voucher Service
@@ -9,6 +9,10 @@ class VoucherService(object):
     def __init__(self, voucher, ac_tran_required=False, inv_tran_required=False):
 
         self.voucher = voucher
+
+        self.account_transactions = voucher.get('account_transactions', [])
+
+        self.inventory_transactions = voucher.get('inventory_transactions', [])
 
         self.ac_tran_required = ac_tran_required
 
@@ -20,7 +24,7 @@ class VoucherService(object):
 
         debit_sum = 0
 
-        for item in self.voucher.account_transactions:
+        for item in self.account_transactions:
 
             credit_sum += item['credit']
 
@@ -32,7 +36,7 @@ class VoucherService(object):
 
         if self.ac_tran_required:
 
-            if self.voucher.account_transactions.count() == 0:
+            if self.account_transactions.count() == 0:
 
                 return False
 
@@ -46,12 +50,70 @@ class VoucherService(object):
 
         return False
 
+    def _account1(self):
+
+        ac_tran = self.account_transactions
+
+        try:
+
+            return ac_tran[0].account
+
+        except IndexError:
+
+            return None
+
+    def _account2(self):
+
+        ac_tran = self.account_transactions
+
+        try:
+
+            return ac_tran[1].account
+
+        except IndexError:
+
+            return None
+
     def create_voucher(self):
 
-        user = User.objects.get(pk=self.voucher['created_by'])
+        voucher_data = dict()
 
-        user_service = UserService(user=user)
+        voucher_data['created_by'] = self.voucher.get('created_by')
 
-        branch = user_service.branch
+        voucher_data['branch'] = self.voucher.get('created_by').userprofile.branch
 
-        # Voucher Create Logic here
+        voucher_data['trans_date'] = self.voucher.get('trans_date')
+
+        voucher_data['value_date'] = self.voucher.get('value_date', self.voucher.get('trans_date'))
+
+        voucher_data['rounded'] = self.voucher.get('rounded', 0)
+
+        voucher_data['discount'] = self.voucher.get('discount', 0)
+
+        voucher_data['voucher_type'] = self.voucher.get('voucher_type')
+
+        voucher_data['voucher_no'] = utils.gen_vch_no(self.voucher.get('voucher_type'))
+
+        voucher_data['ref_no'] = self.voucher.get('ref_no', None)
+
+        voucher_data['tax_exempt'] = self.voucher.get('tax_exempt', False)
+
+        voucher_data['status'] = self.voucher.get('status', True)
+
+        voucher_data['account1'] = self.voucher.get('account1', self._account1())
+
+        voucher_data['account2'] = self.voucher.get('account1', self._account2())
+
+        voucher_data['cashier'] = self.voucher.get('cashier', None)
+
+        voucher_data['customer'] = self.voucher.get('customer', None)
+
+        voucher_data['doctor'] = self.voucher.get('doctor', None)
+
+        voucher_data['op_account'] = self.voucher.get('op_account', None)
+
+        voucher_data['op_inventory'] = self.voucher.get('op_inventory', None)
+
+        voucher_obj = Voucher.objects.create(**voucher_data)
+
+        return voucher_obj

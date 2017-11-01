@@ -10,11 +10,45 @@ from bmcore.models.role import Role
 
 from bmcore.models.account import Account
 
+from bmcore.models.branch import Branch
+
 # Create your models here.
+
+
+# User Profile Queryset
+class UserProfileQuerySet(models.QuerySet):
+
+    def cashiers(self):
+
+        return self.filter(is_cashier=True)
+
+    def verified(self):
+
+        return self.filter(verified=True)
+
+    def males(self):
+
+        return self.filter(sex='M')
+
+    def females(self):
+
+        return self.filter(sex='F')
 
 
 # User Profile Manager
 class UserProfileManager(models.Manager):
+
+    def get_queryset(self):
+
+        return UserProfileQuerySet(self.model, using=self._db)
+
+    def cashiers(self):
+
+        return self.get_queryset().cashiers()
+
+    def verified(self):
+
+        return self.get_queryset().verified()
 
     def create(self, user, **kwargs):
 
@@ -63,6 +97,8 @@ class UserProfile(models.Model):
     verified = models.BooleanField(default=False)
 
     role = models.ForeignKey(Role, blank=True, null=True)
+
+    branch = models.ForeignKey(Branch, default=1)
 
     is_cashier = models.BooleanField(default=False)
 

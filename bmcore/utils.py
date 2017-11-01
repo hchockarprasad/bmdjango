@@ -59,12 +59,22 @@ def check_obj_exists(model, obj_id, **kwargs):
 
 
 # Function that increment voucher number for a particular voucher type
-def increment_voucher(voucher_type):
+def _increment_voucher(voucher_type):
 
-    model_obj = VoucherModel.objects.get(voucher_template__voucher_type__name=voucher_type)
+    model_obj = VoucherModel.objects.get(name=voucher_type)
 
     model_obj.vch_no += 1
 
     model_obj.save()
 
     return model_obj
+
+
+# Function that generates new voucher number for vouchers
+def gen_vch_no(voucher_type):
+
+    # Increment voucher number by 1
+    vch_model_obj = _increment_voucher(voucher_type)
+
+    # Add Prefix for voucher no
+    return vch_model_obj.prefix + str(vch_model_obj.vch_no)

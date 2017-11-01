@@ -15,11 +15,6 @@ class PaymentService(object):
         self.user = user
 
     @property
-    def cash_account(self):
-
-        return self.user.userprofile.cash_account
-
-    @property
     def credit_accounts(self):
 
         return Account.objects.filter(group__in=self._permitted_groups_for_credit).id
@@ -53,6 +48,8 @@ class PaymentService(object):
         voucher_service = VoucherService(voucher)
 
         if voucher_service.has_valid_voucher():
+
+            voucher_service.create_voucher()
 
             return True
 

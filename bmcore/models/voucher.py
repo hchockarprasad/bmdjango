@@ -16,49 +16,49 @@ from bmcore.models.doctor import Doctor
 # Voucher manager
 class VoucherManager(models.Manager):
 
-    def create(self, branch, created_by, **kwargs):
+    def create(self, **kwargs):
 
         instance = self.model()
 
-        instance.trans_date = kwargs.get('trans_date', None)
+        instance.trans_date = kwargs.get('trans_date')
 
-        instance.value_date = kwargs.get('value_date', None)
+        instance.value_date = kwargs.get('value_date')
 
-        instance.voucher_model = kwargs.get('voucher_model', None)
+        instance.voucher_model = kwargs.get('voucher_model')
 
-        instance.voucher_type = kwargs.get('voucher_type', None)
+        instance.voucher_type = kwargs.get('voucher_type')
 
-        instance.ref_no = kwargs.get('ref_no', None)
+        instance.ref_no = kwargs.get('ref_no')
 
-        instance.op_account = kwargs.get('op_account', None)
+        instance.op_account = kwargs.get('op_account')
 
-        instance.op_inventory = kwargs.get('op_inventory', None)
+        instance.op_inventory = kwargs.get('op_inventory')
 
-        instance.account1 = kwargs.get('account1', None)
+        instance.account1 = kwargs.get('account1')
 
-        instance.account2 = kwargs.get('account2', None)
+        instance.account2 = kwargs.get('account2')
 
-        instance.rounded = kwargs.get('rounded', None)
+        instance.rounded = kwargs.get('rounded')
 
-        instance.discount = kwargs.get('discount', None)
+        instance.discount = kwargs.get('discount')
 
-        instance.narration = kwargs.get('narration', None)
+        instance.narration = kwargs.get('narration')
 
-        instance.cashier = kwargs.get('cashier', None)
+        instance.cashier = kwargs.get('cashier')
 
-        instance.customer = kwargs.get('customer', None)
+        instance.customer = kwargs.get('customer')
 
-        instance.doctor = kwargs.get('doctor', None)
+        instance.doctor = kwargs.get('doctor')
 
-        instance.tax_exempt = kwargs.get('tax_exempt', False)
+        instance.tax_exempt = kwargs.get('tax_exempt')
 
-        instance.branch = branch
+        instance.branch = kwargs.get('branch')
 
-        instance.status = kwargs.get('status', True)
+        instance.status = kwargs.get('status')
 
-        instance.created_by = created_by
+        instance.created_by = kwargs.get('created_by')
 
-        instance.voucher_no = kwargs.get('voucher_no', None)
+        instance.voucher_no = kwargs.get('voucher_no')
 
         instance.save()
 
