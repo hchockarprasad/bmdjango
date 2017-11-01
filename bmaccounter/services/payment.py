@@ -45,12 +45,4 @@ class PaymentService(object):
 
     def create(self, voucher):
 
-        voucher_service = VoucherService(voucher)
-
-        if voucher_service.has_valid_voucher():
-
-            voucher_service.create_voucher()
-
-            return True
-
-        return False
+        pass

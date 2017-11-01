@@ -42,14 +42,6 @@ class VoucherService(object):
 
         return True
 
-    def has_valid_voucher(self):
-
-        if self._has_valid_ac_tran():
-
-            return True
-
-        return False
-
     def _account1(self):
 
         ac_tran = self.account_transactions
@@ -74,46 +66,76 @@ class VoucherService(object):
 
             return None
 
-    def create_voucher(self):
+    def create(self):
 
-        voucher_data = dict()
+        if self._has_valid_ac_tran():
 
-        voucher_data['created_by'] = self.voucher.get('created_by')
+            voucher_data = dict()
 
-        voucher_data['branch'] = self.voucher.get('created_by').userprofile.branch
+            voucher_data['created_by'] = self.voucher.get('created_by', None)
 
-        voucher_data['trans_date'] = self.voucher.get('trans_date')
+            voucher_data['voucher_type'] = self.voucher.get('voucher_type', None)
 
-        voucher_data['value_date'] = self.voucher.get('value_date', self.voucher.get('trans_date'))
+            # Created by user is required for creating a voucher
+            if not voucher_data['created_by']:
 
-        voucher_data['rounded'] = self.voucher.get('rounded', 0)
+                raise ValueError('Cannot create voucher without created-by user')
 
-        voucher_data['discount'] = self.voucher.get('discount', 0)
+            # Voucher type is required for creating a voucher
+            if not voucher_data['voucher_type']:
 
-        voucher_data['voucher_type'] = self.voucher.get('voucher_type')
+                raise ValueError('Cannot create voucher without voucher-type')
 
-        voucher_data['voucher_no'] = utils.gen_vch_no(self.voucher.get('voucher_type'))
+            # Get user's branch from his profile
+            voucher_data['branch'] = self.voucher.get('created_by').userprofile.branch
 
-        voucher_data['ref_no'] = self.voucher.get('ref_no', None)
+            voucher_data['trans_date'] = self.voucher.get('trans_date')
 
-        voucher_data['tax_exempt'] = self.voucher.get('tax_exempt', False)
+            # Add trans_date as value_date if value_date is not provided
+            voucher_data['value_date'] = self.voucher.get('value_date', self.voucher.get('trans_date'))
 
-        voucher_data['status'] = self.voucher.get('status', True)
+            # Rounded defaults to 0 if not provided
+            voucher_data['rounded'] = self.voucher.get('rounded', 0)
 
-        voucher_data['account1'] = self.voucher.get('account1', self._account1())
+            # Discount defaults to 0 if not provided
+            voucher_data['discount'] = self.voucher.get('discount', 0)
 
-        voucher_data['account2'] = self.voucher.get('account1', self._account2())
+            # Generate voucher_no using the provided voucher-type
+            voucher_data['voucher_no'] = utils.gen_vch_no(self.voucher.get('voucher_type'))
 
-        voucher_data['cashier'] = self.voucher.get('cashier', None)
+            # Reference defaults to null if not provided
+            voucher_data['ref_no'] = self.voucher.get('ref_no', None)
 
-        voucher_data['customer'] = self.voucher.get('customer', None)
+            # Tax exempts defaults to False if not provided
+            voucher_data['tax_exempt'] = self.voucher.get('tax_exempt', False)
 
-        voucher_data['doctor'] = self.voucher.get('doctor', None)
+            # Mark status of all voucher as True if not explicitly given
+            voucher_data['status'] = self.voucher.get('status', True)
 
-        voucher_data['op_account'] = self.voucher.get('op_account', None)
+            # Account1 value defaults to null if not provided or extracted
+            voucher_data['account1'] = self.voucher.get('account1', self._account1())
 
-        voucher_data['op_inventory'] = self.voucher.get('op_inventory', None)
+            # Account2 value defaults to null if not provided or extracted
+            voucher_data['account2'] = self.voucher.get('account1', self._account2())
 
-        voucher_obj = Voucher.objects.create(**voucher_data)
+            # Cashier default to null if not provided
+            voucher_data['cashier'] = self.voucher.get('cashier', None)
 
-        return voucher_obj
+            # Customer defaults to null if not provided
+            voucher_data['customer'] = self.voucher.get('customer', None)
+
+            # Doctor defaults to null if not provided
+            voucher_data['doctor'] = self.voucher.get('doctor', None)
+
+            # Opening account defaults to null if not provided
+            voucher_data['op_account'] = self.voucher.get('op_account', None)
+
+            # Opening inventory defaults to null if not provided
+            voucher_data['op_inventory'] = self.voucher.get('op_inventory', None)
+
+            # Create voucher based on above arguments
+            voucher_obj = Voucher.objects.create(**voucher_data)
+
+            return voucher_obj
+
+        return ValueError('Account transactions are not valid')
