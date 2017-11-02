@@ -179,7 +179,7 @@ class VoucherService(object):
 
                         pending_data = dict()
 
-                        if billwisedetail_obj.adj_ref == 0:
+                        if billwisedetail_obj.id != billwisedetail_obj.adj_id:
 
                             pending_data['bill_amount'] = billwisedetail_obj.amount
 
@@ -195,7 +195,7 @@ class VoucherService(object):
 
                             Pending.objects.create(**pending_data)
 
-                        elif billwisedetail_obj.adj_ref == 1:
+                        elif billwisedetail_obj.id == billwisedetail_obj.adj_id:
 
                             pending_obj = Pending.objects.get(adj_id=billwisedetail_obj.adj_id)
 
