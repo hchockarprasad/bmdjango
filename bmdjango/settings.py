@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'bmstocker',
     'bmbiller',
     'bmmisc',
+    'bmwatcher',
 ]
 
 MIDDLEWARE = [
